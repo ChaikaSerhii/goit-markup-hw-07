@@ -1,0 +1,60 @@
+.features-item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  background-size: 70px, 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+}
+
+.attention-icon::before {
+  background-image: url(../images/antenna.svg);
+}
+.punctuality-icon::before {
+  background-image: url(../images/clock.svg);
+}
+.plan-icon::before {
+  background-image: url(../images/diagram.svg);
+}
+.modern-icon::before {
+  background-image: url(../images/astronaut.svg);
+}
+
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.features-name {
+  color: var(--headlines-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.features-description {
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  flex-basis: calc(100% / 4 -30px);
+}
+.features-item {
+  margin-right: 30px;
+  width: 270px;
+}
+.features-item:nth-child(4n + 4) {
+  margin-right: 0;
+}

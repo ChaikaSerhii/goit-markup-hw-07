@@ -1,0 +1,40 @@
+.contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.contact-icon:hover,
+.contact-icon:focus {
+  fill: currentColor;
+}
+.contact-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  margin-right: 50px;
+  margin-left: 10px;
+  margin-left: auto;
+
+  transition-property: color;
+  transition-duration: var(--animation-duration);
+  transition-timing-function: var(--timing-function);
+}
+.contact-link:last-child {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+.contact-list {
+  margin-left: 331px;
+}
+.contact-item {
+  margin-right: 50px;
+}
+.contact-item:last-child {
+  margin-right: 0px;
+}

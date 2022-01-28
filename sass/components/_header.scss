@@ -1,0 +1,23 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+.header-box {
+  align-items: center;
+  display: flex;
+}
+.headr-nav {
+  font-size: 14px;
+  line-height: 1.33;
+}
+.logo-color {
+  color: var(--accent-color);
+}
+.header-logo-link {
+  color: var(--headlines-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
