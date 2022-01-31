@@ -1,11 +1,11 @@
 .pic {
   padding-bottom: 94px;
 }
-.pic-list {
+.pic__list {
   display: flex;
   flex-wrap: wrap;
 }
-.pic-title {
+.pic__title {
   color: var(--headlines-color);
   text-align: center;
   font-style: normal;
@@ -15,16 +15,16 @@
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.pic-item {
+.pic__item {
   margin-right: 30px;
   flex-basis: calc(100% / 3 - 30px);
   position: relative;
 }
-.pic-item:nth-child(3n + 3) {
+.pic__item:nth-child(3n + 3) {
   margin-right: 0;
 }
 
-.pic-image-overlay {
+.pic__image-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -34,7 +34,7 @@
   padding-top: 27px;
   padding-bottom: 27px;
 }
-.pic-image-overlay-text {
+.pic__image-overlay-text {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;

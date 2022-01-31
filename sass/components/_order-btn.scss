@@ -1,4 +1,4 @@
-.order-btn {
+.btn {
   background-color: var(--accent-color);
   color: var(--text-white-color);
   cursor: pointer;
@@ -17,8 +17,9 @@
   transition-property: background-color;
   transition-duration: var(--animation-duration);
   transition-timing-function: var(--timing-function);
-}
-.order-btn:hover,
-.order-btn:focus {
-  background-color: var(--accent-hover-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-hover-color);
+  }
 }

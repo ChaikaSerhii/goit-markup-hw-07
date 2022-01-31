@@ -1,6 +1,6 @@
 .subscribe {
 }
-.subscribe-text {
+.subscribe__text {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -20,7 +20,7 @@
   color: var(--text-color);
   margin-right: 12px;
 }
-.subscribe-btn {
+.subscribe__btn {
   cursor: pointer;
   width: 200px;
   padding: 10px 28px 10px 29px;
@@ -39,10 +39,11 @@
   transition-property: background-color;
   transition-duration: var(--animation-duration);
   transition-timing-function: var(--timing-function);
-}
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-  background-color: var(--accent-hover-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-hover-color);
+  }
 }
 
 .subscribe svg {

@@ -1,3 +1,4 @@
+
 .nav {
   color: var(--headlines-color);
   font-style: normal;
@@ -12,11 +13,17 @@
   transition-property: color;
   transition-duration: var(--animation-duration);
   transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+
 }
-.nav:hover,
-.nav:focus {
-  color: var(--accent-color);
-}
+
+
+
+
 .nav.link.current {
   color: var(--accent-color);
   position: relative;
@@ -33,14 +40,15 @@
   border-radius: 2px;
 }
 
-.nav-list {
+.nav__list {
   margin-left: 93px;
   display: flex;
 }
 
-.nav-item {
+.nav__item {
   margin-right: 50px;
 }
-.nav-item:last-child {
+.nav__item:last-child {
   margin-right: 0px;
 }
+
