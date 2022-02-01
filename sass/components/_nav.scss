@@ -1,5 +1,5 @@
 
-.nav {
+.navigation__link {
   color: var(--headlines-color);
   font-style: normal;
   font-weight: 500;
@@ -24,12 +24,12 @@
 
 
 
-.nav.link.current {
+.current {
   color: var(--accent-color);
   position: relative;
 }
 /* --------dz#5-------- */
-.nav.link.current::after {
+.current::after {
   content: " ";
   position: absolute;
   height: 4px;
@@ -40,15 +40,15 @@
   border-radius: 2px;
 }
 
-.nav__list {
+.navigation__list {
   margin-left: 93px;
   display: flex;
 }
 
-.nav__item {
+.navigation__item {
   margin-right: 50px;
 }
-.nav__item:last-child {
+.navigation__item:last-child {
   margin-right: 0px;
 }
 

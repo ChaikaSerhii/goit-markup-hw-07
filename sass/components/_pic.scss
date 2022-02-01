@@ -1,11 +1,7 @@
-.pic {
+.services {
   padding-bottom: 94px;
 }
-.pic__list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.pic__title {
+.services__title {
   color: var(--headlines-color);
   text-align: center;
   font-style: normal;
@@ -14,6 +10,11 @@
   line-height: 1.16;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+}
+
+.pic {
+  display: flex;
+  flex-wrap: wrap;
 }
 .pic__item {
   margin-right: 30px;
